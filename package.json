@@ -1,0 +1,22 @@
+{
+  "name": "quizUpScraper",
+  "version": "0.1.1",
+  "main": "quizUpScraper.js",
+  "dependencies": {
+    "wd": "~0.3.12",
+    "path": "~0.11.14",
+    "selenium-standalone": "4.4.2",
+    "async": "1.2.1",
+    "lodash": "^3.10.1",
+    "glob": "^6.0.1",
+    "selenium-webdriver": "^2.48.2",
+    "request":"2.67.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node quizUpScraper.js"
+  },
+  "private": true
+}

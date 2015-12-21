@@ -1,0 +1,14 @@
+{
+	"user":"YourUser",
+	"firefoxProfilePath": "YourFirefoxProfilePath",
+	"output": "./output/",
+	"urls":{
+		"history": "https://www.quizup.com/api/games/history/complete?limit=150",
+		"games": "https://www.quizup.com/api/games/"
+		},
+	"actions": {
+		"getGameHistory":true,
+		"getGames": true,
+		"getQuestions": true
+	}
+}
